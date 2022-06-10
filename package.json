@@ -4,13 +4,16 @@
   "description": "read excel file and save it on db  ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mainframe95",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "exceljs": "^4.3.0",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.16",
     "sequelize": "^6.20.1",
     "sqlite3": "^5.0.8"
